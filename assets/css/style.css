@@ -1225,6 +1225,7 @@ header .arrow-btn img {
   position: relative;
   padding: 80px 0px;
   z-index: 9;
+  overflow: hidden;
 }
 .about-us::after, .about-us::before {
   content: "";
@@ -1651,12 +1652,15 @@ footer .content .socail-media li a:hover img {
   .navbar .hamburger {
     display: block !important;
   }
+  .navbar .brand-name img {
+    width: 86px !important;
+  }
   .navbar .button-contain {
     display: none;
   }
   .navbar .navbar-nav {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100vh;
     position: absolute;
     padding: 20px 15px;
     background-color: #fff;
@@ -1690,7 +1694,7 @@ footer .content .socail-media li a:hover img {
   }
   .navbar.scrolled .navbar-nav {
     top: 80px;
-    height: calc(100vh - 80px);
+    height: 100vh;
   }
   header h1 {
     font-size: 27px !important;

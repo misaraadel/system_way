@@ -4,13 +4,17 @@
       display: block !important;
     }
 
+    .brand-name img {
+      width: 86px !important;
+    }
+
     .button-contain {
       display: none;
     }
 
     .navbar-nav {
       width: 100%;
-      height: calc(100vh - 100px);
+      height: 100vh;
       position: absolute;
       padding: 20px 15px;
       background-color: #fff;
@@ -50,7 +54,7 @@
     &.scrolled {
       .navbar-nav {
         top: 80px;
-        height: calc(100vh - 80px);
+        height: 100vh;
       }
     }
   }
